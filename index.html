@@ -1,0 +1,99 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Test 1</title>
+	<link rel="stylesheet" href="main_b.css">
+	<link rel="stylesheet" href="aux.css">
+	
+	<!-- IMPORTAR DATOS Y CAGARSE EN LA PUTA MADRE DEL QUE DISEÑÓ JS -->
+	<script src="DATA/SLC.js"></script>
+	<script src="DATA/SLCT.js"></script>
+	<script src="DATA/SMPC.js"></script>
+	
+</head>
+<body onload="main()">
+	<div id="container">
+	<div class="toolbar"><center><font size=5>Pruebas. Aún nada útil.</font></center></div>
+	<div id="left">
+		<table class="table" id="thatable">
+			<thead class="table-head">
+				<tr>
+					<th>Síndrome</th>
+					<th>Epidemiología</th>
+					<th>Inmunofenotipo</th>
+					<th>Clínica</th>
+					<th>Pruebas Complementarias</th>
+					<th>Tratamiento</th>
+				</tr>
+			</thead>
+			<div class="scroller">
+			<tbody class="table-body" id="target">
+				
+			</tbody></div>
+		</table>
+	</div>
+	<div id="right">
+		<div class="black-header" id="viewer">Click para visualizar</div>
+		<p />
+		<div class="popover">
+			<h6>Epidemiología</h6>
+			<p id="epi">
+			
+			</p>
+		</div>
+		<p />
+		<div class="popover">
+			<h6>Inmunofenotipo</h6>
+			<p id="inm">
+			
+			</p>
+		</div>
+		<p />
+		<div class="popover">
+			<h6>Genética</h6>
+			<p id="gen">
+			
+			</p>
+		</div>
+		<p />
+		<div class="popover">
+			<h6>Clínica</h6>
+			<p id="clin">
+			
+			</p>
+		</div>
+		<p />
+		<div class="popover">
+			<h6>Pruebas Complementarias</h6>
+			<p id="pcomp">
+			
+			</p>
+		</div>
+		<p />
+		<div class="popover">
+			<h6>Estadiaje</h6>
+			<p id="est">
+			
+			</p>
+		</div>
+		<p />
+		<div class="popover">
+			<h6>Tratamiento</h6>
+			<p id="tto">
+			
+			</p>
+		</div>
+		<p />
+		<div class="popover">
+			<h6>Evolución</h6>
+			<p id="evo">
+			
+			</p>
+		</div>
+		<p />
+	</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
